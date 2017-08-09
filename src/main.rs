@@ -9,7 +9,7 @@ const NAME: &'static str = "DawnSlayer";
 const VER: &'static str = "0.0.1";
 
 fn ua() -> String {
-    return format!("{}/{}", NAME, VER);
+    format!("{}/{}", NAME, VER)
 }
 
 fn handle_client(mut stream: TcpStream) {
