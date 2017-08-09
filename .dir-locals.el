@@ -2,5 +2,6 @@
                         (c-set-style "BSD")
                         (setq-default indent-tabs-mode nil)
                         (setq-default tab-width 4)
-                        (setq c-basic-offset 4)
+                        (setq rust-indent-offset 4)
+			(setq rust-format-on-save t)
                         )))))

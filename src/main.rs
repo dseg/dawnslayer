@@ -1,3 +1,6 @@
+extern crate rust-crypto;
+extern crate zstd;
+
 use std::io::Write;
 use std::net::{TcpListener, TcpStream};
 use std::thread;
